@@ -55,7 +55,7 @@ function buildCar(color, type) {
       type:type,
     };
   if (color === undefined && type === undefined) {
-    return this
+    return {}
   } else {
 		return car
   }
